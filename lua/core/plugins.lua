@@ -209,16 +209,16 @@ return packer.startup(function(use)
   }
 
   -- nvim-magic
-  use({
-    'jameshiew/nvim-magic',
-    config = function()
-      require('nvim-magic').setup()
-    end,
-    requires = {
-      'nvim-lua/plenary.nvim',
-      'MunifTanjim/nui.nvim'
-    }
-  })
+  -- use({
+  --   'jameshiew/nvim-magic',
+  --   config = function()
+  --     require('nvim-magic').setup()
+  --   end,
+  --   requires = {
+  --     'nvim-lua/plenary.nvim',
+  --     'MunifTanjim/nui.nvim'
+  --   }
+  -- })
 
   -- trouble.nvim
   use {
