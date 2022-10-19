@@ -59,4 +59,4 @@ local fn = vim.fn
 
 require("telescope").load_extension("notify")
 require("telescope").load_extension("file_browser")
-require("cinnamon").setup { extra_keymaps = true }
+
