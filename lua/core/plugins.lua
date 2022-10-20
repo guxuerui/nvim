@@ -233,6 +233,11 @@ return packer.startup(function(use)
     end
   }
 
+  -- autorepair tag
+  use 'tpope/vim-repeat'
+  use 'tpope/vim-surround'
+  use 'AndrewRadev/tagalong.vim'
+
   -- codi.vim
   use 'metakirby5/codi.vim'
 
